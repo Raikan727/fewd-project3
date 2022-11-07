@@ -1,0 +1,208 @@
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lora', serif;
+}
+
+header {
+  background-color: rgb(46, 46, 53);
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+fieldset {
+  border: none;
+}
+
+h1 {
+  margin: 0px;
+  text-transform: uppercase;
+  font-size: 29px;
+  padding: 35px;
+}
+
+
+
+.signup-intro {
+  text-align: center;
+}
+
+legend{
+  font-size: x-large;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+
+input {
+  border: 2px none;
+  height: 30px;
+  background-color: rgb(189, 189, 189);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 3px solid rgb(45, 43, 65);
+}
+
+select,
+textarea {
+  background-color: rgb(189, 189, 189);
+    height: 43px;
+    width: 102%;
+}
+
+textarea{
+  padding: 50px 0px 0px 0px;
+    margin: 15px 0 0 0;
+    width: 100%;
+}
+
+
+p, label {
+  font-size: 15px;
+  color: gray;
+}
+
+p {
+  padding: 0px 52px 0px 50px;
+}
+
+::placeholder {
+  text-align: right;
+}
+
+
+.newsletter-option {
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.news-form{
+  padding-bottom: 15px;
+}
+
+.newsletter-option input {
+  margin-right: 10px;
+}
+
+.topics{
+
+}
+
+footer {
+  text-align: center;
+}
+
+.newsletter-par{
+  padding: 0px 55px 15px 0;
+  font-size: large;
+}
+
+
+/*Flex*/
+
+.news-par{
+display: flex;
+
+}
+
+.contact-info , .newsletter-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+.container input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.container label {
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+button{
+  width: 100%;
+  height: 75px;
+  margin-top: 35px;
+  background-color: darkcyan;
+  color: white;
+  font-size: x-large;
+  border-radius: 10px;
+  border: none;
+}
+/*Media Query*/
+
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;     
+}
+  .form-body {
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+  .container {
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .container input {
+      width: 80%;
+  }
+  .zip-container {
+      justify-content: flex-start;
+  }
+
+  #zip{
+    width: 15%;
+  }
+
+  .newsletter-par {
+    padding: 0px 55px 15px 0;
+    font-size: large;
+    padding-top: 20px;
+}
+
+select, textarea {
+  background-color: rgb(189, 189, 189);
+  height: 43px;
+  width: 100%;
+}
+
+select{
+  width: 80%;
+}
+
+
+
+
+/* Horizontal Rules */
+
+#top-bar {
+  height: 4px;
+  border-top: 5px solid rgb(0 0 0);
+  border-bottom: 2px solid rgb(0 0 0);
+  width: 95%;
+}
+
+#bottom-bar {
+  border: 2px rgb(45, 43, 65) solid;
+  width: 95%;
+}
+
+
+
