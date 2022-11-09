@@ -188,6 +188,10 @@ button{
   select{
     width: 80%;
   }
+
+  #zip{
+    width: 25%;
+  }
 }
 
 
