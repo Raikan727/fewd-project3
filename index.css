@@ -92,9 +92,6 @@ p {
   margin-right: 10px;
 }
 
-.topics{
-
-}
 
 footer {
   text-align: center;
@@ -145,52 +142,60 @@ button{
   border-radius: 10px;
   border: none;
 }
+
 /*Media Query*/
 
 @media screen and (min-width: 768px) {
-  body {
-    display: flex;
-    flex-direction: column;     
-}
-  .form-body {
-      margin-left: 20%;
-      margin-right: 20%;
+    body {
+      display: flex;
+      flex-direction: column;     
   }
-  .container {
-      flex-direction: row;
-      justify-content: space-between;
+    .form-body {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .container input {
+        width: 80%;
+    }
+    .zip-container {
+        justify-content: flex-start;
+    }
+
+    #zip{
+      width: 15%;
+    }
+
+    .newsletter-par {
+      padding: 0px 55px 15px 0;
+      font-size: large;
+      padding-top: 20px;
   }
-  .container input {
-      width: 80%;
+
+  select, textarea {
+    background-color: rgb(189, 189, 189);
+    height: 43px;
+    width: 100%;
   }
-  .zip-container {
-      justify-content: flex-start;
+
+  select{
+    width: 80%;
   }
 
   #zip{
-    width: 15%;
+    width: 50%;
   }
-
-  .newsletter-par {
-    padding: 0px 55px 15px 0;
-    font-size: large;
-    padding-top: 20px;
-}
-
-select, textarea {
-  background-color: rgb(189, 189, 189);
-  height: 43px;
-  width: 100%;
-}
-
-select{
-  width: 80%;
 }
 
 
 
 
-/* Horizontal Rules */
+
+
+/* Bar Rules */
 
 #top-bar {
   height: 4px;
