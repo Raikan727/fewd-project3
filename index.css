@@ -2,7 +2,7 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  font-family: 'Lora', serif;
+  font-family: 'Xanh Mono', monospace;
 }
 
 header {
@@ -41,6 +41,7 @@ input {
   border: 2px none;
   height: 30px;
   background-color: rgb(189, 189, 189);
+  font-family: 'Xanh Mono', monospace;
 }
 
 input:focus,
@@ -54,6 +55,7 @@ textarea {
   background-color: rgb(189, 189, 189);
     height: 43px;
     width: 102%;
+    font-family: 'Xanh Mono', monospace;
 }
 
 textarea{
@@ -102,6 +104,10 @@ footer {
   font-size: large;
 }
 
+#zip{
+  width: 50%;
+}
+
 
 /*Flex*/
 
@@ -141,6 +147,7 @@ button{
   font-size: x-large;
   border-radius: 10px;
   border: none;
+  font-family: 'Xanh Mono', monospace;
 }
 
 /*Media Query*/
@@ -180,10 +187,6 @@ button{
 
   select{
     width: 80%;
-  }
-
-  #zip{
-    width: 50%;
   }
 }
 
